@@ -1,2 +1,3 @@
 class Speaker < ApplicationRecord
+  
 end
