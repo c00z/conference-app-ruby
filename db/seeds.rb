@@ -15,6 +15,10 @@ speakers_data = [
     {:first=>"Brianna", :last=>"Veenstra", :email=>"brianna@example.com"},
     {:first=>"Matt", :last=>"Laguardia", :email=>"matt@example.com"},
     {:first=>"Ilias", :last=>"Tsangaris", :email=>"ilias@example.com"},
+    {:first=>FFaker::Name.first_name, :last=>FFaker::Name.last_name, :email=>FFaker::Internet.email},
+    {:first=>FFaker::Name.first_name, :last=>FFaker::Name.last_name, :email=>FFaker::Internet.email},
+    {:first=>FFaker::Name.first_name, :last=>FFaker::Name.last_name, :email=>FFaker::Internet.email},
+    {:first=>FFaker::Name.first_name, :last=>FFaker::Name.last_name, :email=>FFaker::Internet.email},
     {:first=>FFaker::Name.first_name, :last=>FFaker::Name.last_name, :email=>FFaker::Internet.email}
 ]
 
